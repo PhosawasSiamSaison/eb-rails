@@ -5,5 +5,5 @@ cd /var/www/eb-rails/
 #sudo apt-get install ruby2.3-dev libffi-dev -y
 gem install nokogiri — — use-system-libraries
 bundle config build.nokogiri — use-system-libraries
-gem install bundler -v 2.1.4 — user-install
+gem install bundler:2.1.4 — user-install
 bundle install
