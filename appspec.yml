@@ -6,7 +6,7 @@ destination: /var/www/eb-rails
 file_exists_behavior: OVERWRITE
 permissions:
 - object: /var/www/eb-rails
-pattern: “**”
+pattern: "**"
 owner: ubuntu
 group: ubuntu
 mode: 775
