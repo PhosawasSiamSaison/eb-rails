@@ -8,4 +8,4 @@ cd /var/www/eb-rails/
 gem install bundler:2.1.4 — user-install
 bundle install
 sudo kill -9 $(lsof -i :3000 -t)
-rails s
+rails s -d
