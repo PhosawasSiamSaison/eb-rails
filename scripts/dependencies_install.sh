@@ -7,5 +7,5 @@ cd /var/www/eb-rails/
 # bundle config build.nokogiri — use-system-libraries
 gem install bundler:2.1.4 — user-install
 bundle install
-sudo kill -9 $(lsof -i :3000 -t)
-rails s -d
+# sudo kill -9 $(lsof -i :3000 -t)
+# rails s -d
